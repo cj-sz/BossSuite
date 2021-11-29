@@ -1,6 +1,6 @@
 {
     "name": "Boss Expert Extensions",
-    "author": "CJ5Boss",
-    "displayName": "Boss Expert Extensions v0.2.1",
-    "description": "Expands the production trees of Expert employees Developer, Designer, Lead Developer, and SysAdmin, changing respective recipes. Please see github.com/CJ5-Z/BossExpertExtensions for all related info. This mod requires Boss Basic Addons github.com/CJ5-Z/BossBasicAddons and Boss Beginner Extensions github.com/CJ5-Z/BossBeginnerExtensions and github.com/CJ5-Z/BossIntermediateExtensions to work."
+    "author": "Houzi2004",
+    "displayName": "Boss Expert Extensions",
+    "description": "Expands the production trees of Expert employees Developer, Designer, Lead Developer, and SysAdmin, changing respective recipes. This mod requires Boss Basic Addons and Boss Beginner Extensions and Boss Intermediate Extensions to work. See github.com/Houzi2004/BossSuite for more info."
 }

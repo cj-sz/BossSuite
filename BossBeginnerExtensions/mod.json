@@ -1,6 +1,6 @@
 {
     "name": "Boss Beginner Extensions",
-    "author": "CJ5Boss",
-    "displayName": "Boss Beginner Extensions v0.2.1",
-    "description": "Expands the production trees for the Beginner employees Developer, Designer, Lead Developer, and SysAdmin, and further changes related recipes for modules and features. See github.com/CJ5-Z/BossBeginnerExtensions for all related mod info. This mod requires Boss Basic Addons github.com/CJ5-Z/BossBasicAddons in order to work."
+    "author": "Houzi2004",
+    "displayName": "Boss Beginner Extensions",
+    "description": "Expands the production trees for the Beginner employees Developer, Designer, Lead Developer, and SysAdmin, and further changes related recipes for modules and features. See github.com/Houzi2004/BossSuite for more info. This mod requires Boss Basic Addons in order to work; you can download it from the Boss Suite."
 }
