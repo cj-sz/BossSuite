@@ -165,7 +165,6 @@ exports.initialize = (modPath) => {
         employeeTypeName:Enums.EmployeeTypeNames.LeadDeveloper,
         type: ComponentTypes.Module,
         requirements: {
-            'basicinterface': 1,
             'StorageModule': 1,
             'developerintegration': 1,
             'programmodule': 1,
@@ -288,7 +287,6 @@ exports.initialize = (modPath) => {
         "DatabaseComponent": 1,
         "BackendComponent": 2,
         "NetworkComponent": 1,
-        "databasebacking": 1,
         "serversideprocess": 1,
         "filemanager": 1,
         "serverinteractioncomponent": 1
@@ -309,7 +307,6 @@ exports.initialize = (modPath) => {
         "DatabaseComponent": 1,
         "EncryptionComponent": 1,
         "BackendModule": 1,
-        "basicinterface": 1,
         "processhandler": 1,
         "frameworkmodule": 1,
         "authcomponent": 1,

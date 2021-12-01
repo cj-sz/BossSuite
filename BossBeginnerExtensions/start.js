@@ -139,7 +139,6 @@ exports.initialize = (modPath) => {
             'UiComponent': 1,
             'NetworkComponent': 1,
             'DatabaseComponent': 1,
-            'basicinterface': 1,
             'newdatatypes': 1,
             'scriptingapi': 1,
             'filemanager': 1
@@ -239,13 +238,11 @@ exports.initialize = (modPath) => {
     {
         "UiElement": 2,
         "WireframeComponent": 1,
-        "basicinterface": 1,
         "scriptingapi": 1
     }
     Components.find(component => component.name == ComponentNames.FrontendModule).requirements = 
     {
         "InterfaceModule": 1,
-        "htmlcomponent": 1,
         "backgroundtasks": 1,
         "filemanager": 1,
         "programmodule": 1
@@ -254,7 +251,6 @@ exports.initialize = (modPath) => {
     {
         "BackendComponent": 1,
         "NetworkComponent": 1,
-        "basicinterface": 1,
         "serversideprocess": 1,
         "programmodule": 1
     }
@@ -271,7 +267,6 @@ exports.initialize = (modPath) => {
         "FrontendModule": 1,
         "InputModule": 1,
         "backgroundtasks": 3,
-        "basicinterface": 3,
         "csscomponent": 1,
         "filemanager": 1,
         "crossovermodule": 1
@@ -280,8 +275,6 @@ exports.initialize = (modPath) => {
     {
         "VideoComponent": 1,
         "FrontendModule": 1,
-        "basicinterface": 1,
-        "htmlcomponent": 1,
         "aestheticscomponent": 1,
         "csscomponent": 1,
         "presentationmodule": 1
@@ -309,7 +302,6 @@ exports.initialize = (modPath) => {
         "DatabaseComponent": 1,
         "BackendComponent": 2,
         "NetworkComponent": 1,
-        "databasebacking": 1,
         "serversideprocess": 1,
         "filemanager": 1
     }
@@ -327,7 +319,6 @@ exports.initialize = (modPath) => {
         "DatabaseComponent": 1,
         "EncryptionComponent": 1,
         "BackendModule": 1,
-        "basicinterface": 1,
         "processhandler": 1,
         "frameworkmodule": 1,
         "authcomponent": 1
@@ -406,8 +397,7 @@ exports.initialize = (modPath) => {
             "BlueprintComponent": 1,
             "GraphicsComponent": 1,
             "aestheticscomponent": 1,
-            "scriptingapi": 1,
-            "basicfeatureupgrader": 1
+            "scriptingapi": 1
         }
     )
     Object.assign(Features.find(feature => feature.name == FeatureNames.LiveStreaming).requirements,

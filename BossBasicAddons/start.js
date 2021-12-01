@@ -6,43 +6,9 @@ exports.initialize = (modPath) => {
     //New components
         //Developer
             //Basic
-    ComponentNames.BasicInterface = 'basicinterface';
-    Components.push({
-        name: ComponentNames.BasicInterface,
-        employeeLevel: Enums.EmployeeLevels.Beginner,
-        icon: modPath + 'graphics/developer/basicinterface.png',
-        employeeTypeName: Enums.EmployeeTypeNames.Developer,
-        type: ComponentTypes.Component,
-        produceHours: 2
-    });
-    ComponentNames.HTMLComponent = 'htmlcomponent';
-    Components.push({
-        name: ComponentNames.HTMLComponent,
-        employeeLevel: Enums.EmployeeLevels.Beginner,
-        icon: modPath + 'graphics/developer/htmlcomponent.png',
-        employeeTypeName: Enums.EmployeeTypeNames.Developer,
-        type: ComponentTypes.Component,
-        produceHours: 3
-    });
-    ComponentNames.BasicFeatureUpgrader = 'basicfeatureupgrader';
-    Components.push({
-        name: ComponentNames.BasicFeatureUpgrader,
-        employeeLevel: Enums.EmployeeLevels.Beginner,
-        icon: modPath + 'graphics/developer/basicfeatureupgrader.png',
-        employeeTypeName: Enums.EmployeeTypeNames.Developer,
-        type: ComponentTypes.Component,
-        produceHours: 2
-    });
+
             //Intermediate
-    ComponentNames.DatabaseBacking = 'databasebacking';
-    Components.push({
-        name: ComponentNames.DatabaseBacking,
-        employeeLevel: Enums.EmployeeLevels.Intermediate,
-        icon: modPath + 'graphics/developer/databasebacking.png',
-        employeeTypeName: Enums.EmployeeTypeNames.Developer,
-        type: ComponentTypes.Component,
-        produceHours: 8
-    });
+
     ComponentNames.ProcessHandler = 'processhandler';
     Components.push({
         name: ComponentNames.ProcessHandler,
