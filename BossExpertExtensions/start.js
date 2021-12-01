@@ -201,8 +201,8 @@ exports.initialize = (modPath) => {
         $rootScope = GetRootScope();
         if($rootScope.options.language === "en"){
             //Developer
-            Language['advancedalgoritmcomponent'] = "Advanced Algorithm Component"; //Graphics Done
-            Language['advancedintergace'] = "Advanced Interface"; //Graphics Done
+            Language['advancedalgorithmcomponent'] = "Advanced Algorithm Component"; //Graphics Done
+            Language['advancedinterface'] = "Advanced Interface"; //Graphics Done
             Language['sitewideintegration'] = "Sitewide Integration"; //Graphics Done
             Language['largesiteframework'] = "Large Site Framework"; //Graphics Done
             //Designer

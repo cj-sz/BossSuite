@@ -367,7 +367,6 @@ exports.initialize = (modPath) => {
     )
     //DESIGNER RESEARCH
     ResearchItems.find(item => item.name == ResearchItemNames.BeginnerDesignerKit).unlocks.push(
-        ComponentNames.CSSComponent,
         ComponentNames.Aesthetics,
         ComponentNames.ImplementationAssets
     )
@@ -548,7 +547,6 @@ exports.initialize = (modPath) => {
     Object.assign(Features.find(feature => feature.name == FeatureNames.SharingFunctionality).requirements,
         {
             "aestheticsmodule": 1,
-            "FeatureUpgrader": 1
         }
     )
     Object.assign(Features.find(feature => feature.name == FeatureNames.ImageUpload).requirements,
