@@ -68,8 +68,7 @@ exports.initialize = (modPath) => {
         employeeTypeName:Enums.EmployeeTypeNames.Designer,
         type: ComponentTypes.Module,
         requirements: {
-            'csscomponent': 1,
-            'aestheticscomponent': 1
+            'csscomponent': 1
         }
     });
     ComponentNames.DeveloperIntegration = 'developerintegration';
@@ -171,7 +170,6 @@ exports.initialize = (modPath) => {
         requirements: {
             'GraphicsComponent': 1,
             'csscomponent': 1,
-            'aestheticscomponent': 1,
             'csspack': 1,
             'colorpalette': 1,
             'aestheticasset': 1
@@ -259,7 +257,6 @@ exports.initialize = (modPath) => {
         "UiComponent": 1,
         "BackendComponent": 1,
         "backgroundtasks": 1,
-        "aestheticscomponent": 1,
         "developerintegration": 1
     }
     Components.find(component => component.name == ComponentNames.ContentManagementModule).requirements = 
@@ -275,7 +272,6 @@ exports.initialize = (modPath) => {
     {
         "VideoComponent": 1,
         "FrontendModule": 1,
-        "aestheticscomponent": 1,
         "csscomponent": 1,
         "presentationmodule": 1
     }
@@ -285,7 +281,6 @@ exports.initialize = (modPath) => {
         "FrontendModule": 1,
         "SemanticComponent": 1,
         "backgroundtasks": 1,
-        "processhandler": 1,
         "basicalgorithm": 1,
         "beginnerdevmodule": 1
     }
@@ -293,7 +288,6 @@ exports.initialize = (modPath) => {
     {
         "SmtpComponent": 1,
         "BackendModule": 1,
-        "processhandler": 1,
         "presentationmodule": 1,
         "crossovermodule": 1
     }
@@ -319,7 +313,6 @@ exports.initialize = (modPath) => {
         "DatabaseComponent": 1,
         "EncryptionComponent": 1,
         "BackendModule": 1,
-        "processhandler": 1,
         "frameworkmodule": 1,
         "authcomponent": 1
     }
@@ -329,7 +322,6 @@ exports.initialize = (modPath) => {
         "DatabaseLayer": 1,
         "ApiClientModule": 1,
         "AuthenticationModule": 1,
-        "condensedfeatures": 1,
         "efficiencycomponent": 1,
         "crossovermodule": 1
     }
@@ -337,7 +329,6 @@ exports.initialize = (modPath) => {
     {
         "I18nComponent": 1,
         "FrontendModule": 1,
-        "condensedfeatures": 1,
         "efficiencycomponent": 1,
         "crossovermodule": 1
     }
@@ -346,8 +337,6 @@ exports.initialize = (modPath) => {
         "DatabaseComponent": 1,
         "SearchAlgorithmComponent": 1,
         "BackendComponent": 1,
-        "condensedfeatures": 1,
-        "efficiencycomponent": 1,
         "crossovermodule": 1
     }
     Components.find(component => component.name == ComponentNames.BandwidthCompressionModule).requirements = 
@@ -355,8 +344,6 @@ exports.initialize = (modPath) => {
         "CompressionComponent": 1,
         "NetworkComponent": 1,
         "BackendComponent": 1,
-        "condensedfeatures": 1,
-        "efficiencycomponent": 1,
         "crossovermodule": 1
     }
     Components.find(component => component.name == ComponentNames.CodeOptimizationModule).requirements = 
@@ -364,8 +351,6 @@ exports.initialize = (modPath) => {
         "BackendModule": 2,
         "DatabaseLayer": 2,
         "FrontendModule": 2,
-        "condensedfeatures": 1,
-        "efficiencycomponent": 1,
         "crossovermodule": 1
     }
     Components.find(component => component.name == ComponentNames.ApiClientModule).requirements = 
@@ -373,8 +358,6 @@ exports.initialize = (modPath) => {
         "BackendModule": 1,
         "DatabaseLayer": 1,
         "CompressionComponent": 1,
-        "condensedfeatures": 1,
-        "efficiencycomponent": 1,
         "crossovermodule": 1
     }
 
@@ -383,9 +366,6 @@ exports.initialize = (modPath) => {
     {
         "Cluster": 1,
         "VirtualContainer": 1,
-        "constantmonitor": 1,
-        "monitorset": 1,
-        "maintenancepack": 1,
         "verificationcomponent": 1
     }
 
@@ -396,7 +376,6 @@ exports.initialize = (modPath) => {
             "BackendComponent": 1,
             "BlueprintComponent": 1,
             "GraphicsComponent": 1,
-            "aestheticscomponent": 1,
             "scriptingapi": 1
         }
     )
@@ -406,8 +385,7 @@ exports.initialize = (modPath) => {
             "FrontendModule": 1,
             "NetworkComponent": 1,
             "presentationmodule": 1,
-            "featureupgrader": 1,
-            "featurefinalizer": 1
+            "featureupgrader": 1
         }
     )
     Object.assign(Features.find(feature => feature.name == FeatureNames.SharingFunctionality).requirements,
@@ -417,10 +395,8 @@ exports.initialize = (modPath) => {
             "InputModule": 1,
             "EmailModule": 1,
             "UiSet": 1,
-            "condensedfeatures": 1,
             "crossovermodule": 1,
-            "featureupgrader": 1,
-            "featurefinalizer": 1
+            "featureupgrader": 1
         }
     )
     Object.assign(Features.find(feature => feature.name == FeatureNames.OfflineContent).requirements,
@@ -430,10 +406,8 @@ exports.initialize = (modPath) => {
             "StorageModule": 2,
             "DatabaseLayer": 2,
             "UiSet": 1,
-            "condensedfeatures": 1,
             "programmodule": 1,
-            "featureupgrader": 1,
-            "featurefinalizer": 1
+            "featureupgrader": 1
         }
     )
     Object.assign(Features.find(feature => feature.name == FeatureNames.PaymentSystem).requirements,
@@ -443,10 +417,8 @@ exports.initialize = (modPath) => {
             "PaymentGatewayModule": 1,
             "EmailModule": 1,
             "DesignGuidelines": 1,
-            "condensedfeatures": 1,
             "beginnerdevmodule": 1,
-            "featureupgrader": 1,
-            "featurefinalizer": 1
+            "featureupgrader": 1
         }
     )
     Object.assign(Features.find(feature => feature.name == FeatureNames.ChatSystem).requirements,
@@ -457,10 +429,8 @@ exports.initialize = (modPath) => {
             "NetworkComponent": 3,
             "ApiClientModule": 2,
             "DesignGuidelines": 1,
-            "condensedfeatures": 1,
             "crossovermodule": 1,
-            "featureupgrader": 1,
-            "featurefinalizer": 1
+            "featureupgrader": 1
         }
     )
     Object.assign(Features.find(feature => feature.name == FeatureNames.HelpSystem).requirements,
@@ -471,10 +441,8 @@ exports.initialize = (modPath) => {
             "BackendModule": 3,
             "UiSet": 2,
             "DesignGuidelines": 1,
-            "condensedfeatures": 1,
             "basicalgorithm": 1,
-            "featureupgrader": 1,
-            "featurefinalizer": 1
+            "featureupgrader": 1
         }
     )
     Object.assign(Features.find(feature => feature.name == FeatureNames.VideoFunctionality).requirements,
@@ -509,10 +477,8 @@ exports.initialize = (modPath) => {
             "DatabaseLayer": 2,
             "FrontendModule": 1,
             "UiSet": 1,
-            "condensedfeatures": 1,
             "crossovermodule": 1,
-            "featureupgrader": 1,
-            "featurefinalizer": 1
+            "featureupgrader": 1
         }
     )
     Object.assign(Features.find(feature => feature.name == FeatureNames.VideoEditor).requirements,
@@ -522,11 +488,9 @@ exports.initialize = (modPath) => {
             "FrontendModule": 1,
             "BackendModule": 1,
             "UiSet": 1,
-            "condensedfeatures": 1,
             "crossovermodule": 1,
             "beginnerdesignermodule": 1,
-            "featureupgrader": 1,
-            "featurefinalizer": 1
+            "featureupgrader": 1
         }
     )
 

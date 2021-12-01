@@ -92,7 +92,6 @@ exports.initialize = (modPath) => {
         employeeTypeName: Enums.EmployeeTypeNames.SysAdmin,
         type: ComponentTypes.Module,
         requirements: {
-            'basicsecuritysystem': 1,
             'intermediatesysset': 1,
             'Cluster': 1,
             'connectionhandling': 1
@@ -154,9 +153,7 @@ exports.initialize = (modPath) => {
             "PaymentGatewayModule": 1,
             "EmailModule": 1,
             "DesignGuidelines": 1,
-            "condensedfeatures": 1,
             "featureupgrader": 1,
-            "featurefinalizer": 1,
             "beginnerdevmodule": 1,
             "fullsystemset": 1,
             "expertsupplementmodule": 1,
@@ -171,9 +168,7 @@ exports.initialize = (modPath) => {
             "NetworkComponent": 3,
             "ApiClientModule": 2,
             "DesignGuidelines": 1,
-            "condensedfeatures": 1,
             "featureupgrader": 1,
-            "featurefinalizer": 1,
             "crossovermodule": 1,
             "expertdesignset": 1,
             "finalintegrationmodule": 1
@@ -187,9 +182,7 @@ exports.initialize = (modPath) => {
             "BackendModule": 3,
             "UiSet": 2,
             "DesignGuidelines": 1,
-            "condensedfeatures": 1,
             "featureupgrader": 1,
-            "featurefinalizer": 1,
             "basicalgorithm": 1,
             "finalintegrationmodule": 1
         }

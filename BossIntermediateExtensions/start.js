@@ -69,7 +69,6 @@ exports.initialize = (modPath) => {
         type: ComponentTypes.Module,
         requirements: {
             'UiElement': 1,
-            'aestheticscomponent': 1,
             'UiSet': 1,
             'uicompatibilitycomponent': 1
         }
@@ -103,7 +102,6 @@ exports.initialize = (modPath) => {
         requirements: {
             'ProcessManagement': 1,
             'CronJob': 1,
-            'monitorset': 1,
             'serverconnectioncomponent': 1,
             "servermonitorcomponent": 1
         }
@@ -153,7 +151,6 @@ exports.initialize = (modPath) => {
             'basicalgorithm': 1,
             'BackendModule': 1,
             'programmodule': 1,
-            'monitorset': 1,
             "condensedcomponent": 2
         }
     });
@@ -168,7 +165,6 @@ exports.initialize = (modPath) => {
             'StorageModule': 1,
             'developerintegration': 1,
             'programmodule': 1,
-            "processhandler": 1,
             "intermediatesysset": 1
         }
     });
@@ -181,7 +177,6 @@ exports.initialize = (modPath) => {
         type: ComponentTypes.Module,
         requirements: {
             'ContentManagementModule': 3,
-            'monitorset': 1,
             'intermediatesysset': 1
         }
     });
@@ -250,15 +245,7 @@ exports.initialize = (modPath) => {
         "ProcessManagement": 1,
         "ContinuousIntegration": 1,
         "CronJob": 1,
-        "monitorset": 1,
         "servermonitorcomponent": 1
-    }
-    Components.find(component => component.name == ComponentNames.MaintenancePack).requirements = 
-    {
-        'basicsecuritysystem': 2,
-        'ProcessManagement': 1,
-        'monitorset': 1,
-        "intermediatesysset": 1
     }
         //Lead Developer
             //Intermediate Modules
@@ -267,7 +254,6 @@ exports.initialize = (modPath) => {
         "FrontendModule": 1,
         "SemanticComponent": 1,
         "backgroundtasks": 1,
-        "processhandler": 1,
         "basicalgorithm": 1,
         "beginnerdevmodule": 1,
         "condensedcomponent": 1
@@ -276,7 +262,6 @@ exports.initialize = (modPath) => {
     {
         "SmtpComponent": 1,
         "BackendModule": 1,
-        "processhandler": 1,
         "presentationmodule": 1,
         "crossovermodule": 1,
         "userinteractioncomponent": 1,
@@ -307,7 +292,6 @@ exports.initialize = (modPath) => {
         "DatabaseComponent": 1,
         "EncryptionComponent": 1,
         "BackendModule": 1,
-        "processhandler": 1,
         "frameworkmodule": 1,
         "authcomponent": 1,
         "userinteractioncomponent": 1,
@@ -319,8 +303,6 @@ exports.initialize = (modPath) => {
         "DatabaseLayer": 1,
         "ApiClientModule": 1,
         "AuthenticationModule": 1,
-        "condensedfeatures": 1,
-        "efficiencycomponent": 1,
         "crossovermodule": 1,
         "interactablemodule": 1
     }
@@ -328,8 +310,6 @@ exports.initialize = (modPath) => {
     {
         "I18nComponent": 1,
         "FrontendModule": 1,
-        "condensedfeatures": 1,
-        "efficiencycomponent": 1,
         "crossovermodule": 1,
         "constantfixesmodule": 1
     }
@@ -338,8 +318,6 @@ exports.initialize = (modPath) => {
         "DatabaseComponent": 1,
         "SearchAlgorithmComponent": 1,
         "BackendComponent": 1,
-        "condensedfeatures": 1,
-        "efficiencycomponent": 1,
         "crossovermodule": 1,
         "userconnectionmodule": 1
     }
@@ -348,8 +326,6 @@ exports.initialize = (modPath) => {
         "CompressionComponent": 1,
         "NetworkComponent": 1,
         "BackendComponent": 1,
-        "condensedfeatures": 1,
-        "efficiencycomponent": 1,
         "crossovermodule": 1,
         "condensedcomponent": 1,
         "sustainingmodule": 1,
@@ -360,8 +336,6 @@ exports.initialize = (modPath) => {
         "BackendModule": 2,
         "DatabaseLayer": 2,
         "FrontendModule": 2,
-        "condensedfeatures": 1,
-        "efficiencycomponent": 1,
         "crossovermodule": 1,
         "condensedcomponent": 1
     }
@@ -370,8 +344,6 @@ exports.initialize = (modPath) => {
         "BackendModule": 1,
         "DatabaseLayer": 1,
         "CompressionComponent": 1,
-        "condensedfeatures": 1,
-        "efficiencycomponent": 1,
         "crossovermodule": 1,
         "intermediatedesignermodule": 1
     }
