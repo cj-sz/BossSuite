@@ -600,7 +600,6 @@ exports.initialize = (modPath) => {
 };
 
 exports.onLoadGame = settings => {
-    GetRootScope().sendMail('CJ5Boss', 'Boss Components and Modules', 'Welcome to the Boss Components and Modules mod! Here, you will need to expand your production and accommodate for the many new components and modules that have been added. These new combinations are required to upgrade your website Features. Future updates will contain balacning. There will also be a suite of mods released, part of the Boss Suite, which will require this mod as a dependency. Questions, contact cj5bossprofessional@gmail.com . Happy producing!');
 
     $rootScope = GetRootScope();
     if($rootScope.options.language === "en") {
