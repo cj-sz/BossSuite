@@ -70,6 +70,8 @@ exports.initialize = (modPath) => {
         requirements: {
             'DocumentationComponent': 1,
             'DesignGuidelines': 1,
+            'completeui': 1,
+            'pleasingaesthetics': 1,
             'designexecutioncomponent': 1,
             'expertdesignintegration': 1
         }
@@ -119,7 +121,9 @@ exports.initialize = (modPath) => {
         employeeTypeName: Enums.EmployeeTypeNames.LeadDeveloper,
         type: ComponentTypes.Module,
         requirements: {
+            'htmlbase': 2,
             'serverinteractioncomponent': 2,
+            'algorithmupdater': 1,
             'sitewideintegration': 1
         }
     }); 
@@ -182,8 +186,10 @@ exports.initialize = (modPath) => {
             "BackendModule": 3,
             "UiSet": 2,
             "DesignGuidelines": 1,
+            "systemmanagement": 1,
             "featureupgrader": 1,
             "basicalgorithm": 1,
+            "speedclient": 1,
             "finalintegrationmodule": 1
         }
     )

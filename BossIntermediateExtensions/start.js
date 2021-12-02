@@ -163,6 +163,7 @@ exports.initialize = (modPath) => {
         type: ComponentTypes.Module,
         requirements: {
             'StorageModule': 1,
+            'filingbase': 1,
             'developerintegration': 1,
             'programmodule': 1,
             "intermediatesysset": 1
@@ -264,6 +265,7 @@ exports.initialize = (modPath) => {
         "BackendModule": 1,
         "presentationmodule": 1,
         "crossovermodule": 1,
+        "aestheticsmodule": 1,
         "userinteractioncomponent": 1,
         "devdescompatibilitycomponent": 1
     }
@@ -272,6 +274,7 @@ exports.initialize = (modPath) => {
         "DatabaseComponent": 1,
         "BackendComponent": 2,
         "NetworkComponent": 1,
+        "overlookcomponent": 2,
         "serversideprocess": 1,
         "filemanager": 1,
         "serverinteractioncomponent": 1
@@ -282,6 +285,7 @@ exports.initialize = (modPath) => {
         "BackendComponent": 1,
         "NetworkComponent": 1,
         "csscomponent": 1,
+        "aestheticsmodule": 1,
         "presentationmodule": 1,
         "beginnerdesignermodule": 1,
         "userinteractioncomponent": 1,
@@ -294,6 +298,7 @@ exports.initialize = (modPath) => {
         "BackendModule": 1,
         "frameworkmodule": 1,
         "authcomponent": 1,
+        "overlookcomponent": 2,
         "userinteractioncomponent": 1,
         "serverinteractioncomponent": 1
     }
@@ -303,6 +308,7 @@ exports.initialize = (modPath) => {
         "DatabaseLayer": 1,
         "ApiClientModule": 1,
         "AuthenticationModule": 1,
+        "overlookcomponent": 1,
         "crossovermodule": 1,
         "interactablemodule": 1
     }
@@ -318,6 +324,7 @@ exports.initialize = (modPath) => {
         "DatabaseComponent": 1,
         "SearchAlgorithmComponent": 1,
         "BackendComponent": 1,
+        "intermediateassetspack": 1,
         "crossovermodule": 1,
         "userconnectionmodule": 1
     }
@@ -344,6 +351,7 @@ exports.initialize = (modPath) => {
         "BackendModule": 1,
         "DatabaseLayer": 1,
         "CompressionComponent": 1,
+        "overlookcomponent": 1,
         "crossovermodule": 1,
         "intermediatedesignermodule": 1
     }
